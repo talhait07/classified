@@ -1,0 +1,13 @@
+.navbar.navbar-fluid-top
+  .navbar-inner
+    .container-fluid
+      %a.btn.btn-navbar(data-target=".nav-collapse" data-toggle="collapse")
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %a.brand(href="#") Demo
+      .container.nav-collapse
+        %ul.nav
+          %li= link_to "countries", countries_path
+          %li= link_to "new country", new_country_path
+          %li= link_to "countries", countries_path
