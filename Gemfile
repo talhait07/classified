@@ -75,6 +75,10 @@ group :development do
   #gem 'rails_best_practices'
   gem 'bullet', :git => 'git@github.com:flyerhzm/bullet.git'
   gem 'growl'
+
+  #
+  #
+  #gem 'seed-fu', '~> 2.1.0'
   # Notification
   #gem 'rb-fsevent', require: darwin_only('rb-fsevent')
   #gem 'growl', require: darwin_only('growl')

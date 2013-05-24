@@ -1,0 +1,7 @@
+---
+schema_migrations_001:
+  version: '20130512170537'
+schema_migrations_002:
+  version: '20130512172514'
+schema_migrations_003:
+  version: '20130512172557'

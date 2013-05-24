@@ -1,5 +1,8 @@
 Demo::Application.routes.draw do
-  resources :countries
+  scope '/:locale' do
+    resources :countries
+  end
+
 
 
 
@@ -50,4 +53,5 @@ Demo::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  #match '', to: redirect("/#{I18n.default_locale}")
 end
