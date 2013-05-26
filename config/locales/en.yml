@@ -23,3 +23,9 @@ en:
   hello: "Hello world"
   labels:
     details: "Details"
+
+    listing: "List"
+  breadcrumbs:
+    countries:
+      countries: countries
+      list: List

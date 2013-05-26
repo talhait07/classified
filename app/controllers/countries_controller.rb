@@ -1,24 +1,28 @@
 class CountriesController < ApplicationController
   before_action :set_country, only: [:show, :edit, :update, :destroy]
-
+  add_breadcrumb :countries, :countries_path
   # GET /countries
   # GET /countries.json
   def index
+    add_breadcrumb :list
     @countries = Country.all
   end
 
   # GET /countries/1
   # GET /countries/1.json
   def show
+    add_breadcrumb :show
   end
 
   # GET /countries/new
   def new
+    add_breadcrumb :new
     @country = Country.new
   end
 
   # GET /countries/1/edit
   def edit
+    add_breadcrumb :edit
   end
 
   # POST /countries
